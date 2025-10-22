@@ -54,3 +54,19 @@ function obterProdutosDoCarrinho() {
     const produtos = localStorage.getItem('carrinho');
     return produtos ? JSON.parse(produtos) : [];
 }
+ //passo 4 - atuallizar o contador do carrinho   
+function atualizarContadorDoCarrinho() {
+    const carrinho = obterProdutosDoCarrinho();
+    let contador = 0;
+
+    carrinho.forEach(produto => {
+        total += produto.quantidade;
+});console.log(total);
+
+    document.getElementById("contador-carrinho").textContent - total;
+
+
+
+}
+
+atualizarContadorDoCarrinho();
