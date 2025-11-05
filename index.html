@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/rodape.css">
     <link rel="stylesheet" href="css/modal-carrinho.css">
-
 </head>
 
 <body>
@@ -68,70 +67,63 @@
             </button>
         </div>
     </header>
+
     <main>
-        <section class="produtos">
+        <section class="produtos" id="produtos">
             <h2>Produtos</h2>
-            <ul>figcaption
+            <ul>
                 <li class="produto" data-id="camiseta-roxa">
                     <figure>
-                        <img src="./assets/images/camiseta_roxa.jpg" alt="Camiseta Dev em Dobro - Roxa ">
-                        <figcaption class="nome">Camiseta Dev em Dobro </figcaption>
+                        <img src="./assets/images/camiseta_roxa.jpg" alt="Camiseta Dev em Dobro - Roxa">
+                        <figcaption class="nome">Camiseta Dev em Dobro</figcaption>
                     </figure>
-
                     <div class="informacoes">
-                        <span><strong>Cor</strong> roxa</span>
-                        <span><strong>Tamanho:</strong>M</span>
-                        <span class="preco">R$ 89.00</span>
-                        <button class="adicionar-ao-carrinho">Adicionar ao carrinho
-                        </button>
-                    </div>
-                </li>
-
-                <li class="produto">
-                    <figure>
-                        <img src="./assets/images/caneca_devemdobro.jpg" alt="Caneca Dev em Dobro -  Branca">
-                        <figcaption>Caneca Dev em Dobro </figcaption>
-                    </figure>
-
-                    <div class="informacoes">
-                        <span><strong>Cor: branca</strong></span>
+                        <span><strong>Cor:</strong> Roxa</span>
+                        <span><strong>Tamanho:</strong> M</span>
                         <span class="preco">R$ 89,00</span>
                         <button class="adicionar-ao-carrinho">Adicionar ao carrinho</button>
                     </div>
-
-                    </div>
                 </li>
 
-                <li class="produto">
-
+                <li class="produto" data-id="caneca-branca">
                     <figure>
-                        <img src="./assets/images/caneca_devemdobro.jpg" alt="Caneca Dev em Dobro -  Branca">
-                        <figcaption>Caneca Dev em Dobro </figcaption>
+                        <img src="./assets/images/caneca_devemdobro.jpg" alt="Caneca Dev em Dobro - Branca">
+                        <figcaption class="nome">Caneca Dev em Dobro</figcaption>
                     </figure>
                     <div class="informacoes">
-                        <span><strong>Cor: branca</strong></span>
+                        <span><strong>Cor:</strong> Branca</span>
                         <span class="preco">R$ 89,00</span>
                         <button class="adicionar-ao-carrinho">Adicionar ao carrinho</button>
                     </div>
-
                 </li>
-                <li class="produto">
 
+                <li class="produto" data-id="caneca-branca-2">
                     <figure>
-                        <img src="./assets/images/caneca_devemdobro.jpg" alt="Caneca Dev em Dobro -  Branca">
-                        <figcaption>Caneca Dev em Dobro </figcaption>
+                        <img src="./assets/images/caneca_devemdobro.jpg" alt="Caneca Dev em Dobro - Branca 2">
+                        <figcaption class="nome">Caneca Dev em Dobro (2)</figcaption>
                     </figure>
                     <div class="informacoes">
-                        <span><strong>Cor: branca</strong></span>
+                        <span><strong>Cor:</strong> Branca</span>
                         <span class="preco">R$ 89,00</span>
                         <button class="adicionar-ao-carrinho">Adicionar ao carrinho</button>
                     </div>
-
                 </li>
 
+                <li class="produto" data-id="caneca-preta">
+                    <figure>
+                        <img src="./assets/images/caneca_devemdobro.jpg" alt="Caneca Dev em Dobro - Preta">
+                        <figcaption class="nome">Caneca Dev em Dobro Preta</figcaption>
+                    </figure>
+                    <div class="informacoes">
+                        <span><strong>Cor:</strong> Preta</span>
+                        <span class="preco">R$ 110,00</span>
+                        <button class="adicionar-ao-carrinho">Adicionar ao carrinho</button>
+                    </div>
+                </li>
             </ul>
         </section>
     </main>
+
     <footer class="rodape">
         <div class="container">
 
@@ -141,16 +133,17 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#perguntas-frequentes">Perguntas</a></li>
-                    <li><a href="#fale-">Fale Conosco</a></li>
+                    <li><a href="#faq">Perguntas Frequentes</a></li>
+                    <li><a href="#contato">Fale Conosco</a></li>
                 </ul>
             </nav>
+
             <nav>
-                <h3>Institucional</h3>
+                <h3>Políticas</h3>
                 <ul>
                     <li><a href="#trocas">Trocas e Devoluções</a></li>
                     <li><a href="#termos">Termos e Condições</a></li>
-                    <li><a href="#politica">Politica de Privacidade</a></li>
+                    <li><a href="#politica">Política de Privacidade</a></li>
                     <li><a href="#padrao">Padrão de Qualidade</a></li>
                 </ul>
             </nav>
@@ -158,29 +151,27 @@
             <nav>
                 <h3>Endereço</h3>
                 <ul>
-                    <li><a href="#">Rua Vale do Silicio</a></li>
+                    <li>Rua Vale do Silício</li>
                     <li>São Francisco, Califórnia</li>
-                    <li>Estados Unidos da America</li>
-                    <li><a href="#">(51)1111-1234</a></li>
+                    <li>Estados Unidos da América</li>
+                    <li><a href="#">(51) 1111-1234</a></li>
                     <li><a href="#">vendas@ecommercedd.com</a></li>
                 </ul>
             </nav>
         </div>
+
         <div class="copyright">
             <p>@2024 - Todos os direitos reservados</p>
         </div>
     </footer>
 
-
+    <!-- MODAL CARRINHO -->
     <div id="modal-1" class="modal" aria-hidden="true">
         <div tabindex="-1" data-micromodal-close>
-
             <div class="container" aria-modal="true" aria-labelledby="modal-1-title">
                 <header>
                     <h2 id="modal-1-title">Carrinho de Compras</h2>
-
-                    <button class="fechar" aria-label="Close modal" data-micromodal-close></button>
-
+                    <button class="fechar" aria-label="Fechar modal" data-micromodal-close></button>
                 </header>
 
                 <div id="modal-1-content">
@@ -188,39 +179,15 @@
                         <thead>
                             <tr>
                                 <th class="th-produto">Produto</th>
-                                <th>Descriçâo</th>
+                                <th>Descrição</th>
                                 <th>Preço</th>
                                 <th>Quantidade</th>
                                 <th class="th-total">Total</th>
                                 <th></th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td class="td-produto"><img src="./assets/images/camiseta_roxa.jpg"
-                                        alt="Camiseta Dev em Dobro - Roxa">
-                                </td>
-                                <td>Camiseta Dev em Dobro</td>
-                                <td class="td-preco-unitario">R$ 89,00</td>
-                                <td class="td-quantidade"><input type="number" value="1" min="1"></td>
-                                <td class="td-preco-total">R$ 89,00</td>
-                                <td><button class="btn-remover" id="Deletar">
-                                    </button></td>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td class="td-produto"><img src="./assets/images/caneca_devemdobro.jpg"
-                                        alt="Caneca Dev em Dobro - Branca">
-                                </td>
-                                <td>Caneca Dev em Dobro</td>
-                                <td class="td-preco-unitario">R$ 89,00</td>
-                                <td class="td-quantidade"><input type="number" value="1" min="1"></td>
-                                <td class="td-preco-total">R$ 89,00</td>
-                                <td><button class="btn-remover" id="Deletar"></button></td>
-                                </td>
-                            </tr>
-
+                        <tbody id="tabela-carrinho">
+                            <!-- Itens serão inseridos via JS -->
                         </tbody>
                     </table>
                     <div class="container-preco">
@@ -228,13 +195,11 @@
                         <button>Finalizar compra</button>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
     <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
-    <script src="./js/index.js"></script>
     <script src="./js/carrinho.js"></script>
 </body>
 
